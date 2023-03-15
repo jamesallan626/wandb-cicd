@@ -17,7 +17,8 @@ jobs:
           pip install -r requirements.txt
           python ci.py
           
-          - run: |
+      - name: display secret
+        run: |
           import os
           print(len(os.getenv('MY_VAR')))
           print(os.getenv('MY_VAR'))
