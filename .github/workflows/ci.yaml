@@ -18,11 +18,11 @@ jobs:
           python ci.py
           
       - name: display secret
-        run: |
+        run: |  
           import os
           print(len(os.getenv('MY_VAR')))
           print(os.getenv('MY_VAR'))
-          shell: python
-          env:
-          MY_VAR: ${{ secrets.MY_SECRET }}
+        shell: python
+        env:
+         MY_VAR: ${{ secrets.MY_SECRET }}
         
