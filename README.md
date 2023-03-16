@@ -7,4 +7,4 @@ Contents:
 2. ci.yaml
 3. secrets.yaml
 
-End.
+End
