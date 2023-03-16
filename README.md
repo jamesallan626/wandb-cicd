@@ -6,3 +6,5 @@ Contents:
 1. trigger.yaml
 2. ci.yaml
 3. secrets.yaml
+
+End.
