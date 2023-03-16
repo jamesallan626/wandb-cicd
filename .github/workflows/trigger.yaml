@@ -1,4 +1,4 @@
-name: trigger-demo
+name:  trigger-demo
 on:
   push:
     branches:
