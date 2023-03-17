@@ -31,7 +31,7 @@ https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs<br>
 https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions<br>
 https://docs.python.org/3/library/os.html#os.environ<br>
-https://github.com/community/community/discussions/28146<br>
+# https://github.com/community/community/discussions/28146<br>
 https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests<br>
 https://github.com/hamelsmu/wandb-cicd/blob/main/.github/workflows/chatops.yml<br>
 
