@@ -1,4 +1,4 @@
-name: Dynamically Creating and Using Variables across steps
+name: Dynamically Creating and Using Variables Demo
 on: [push]
 
 jobs:
