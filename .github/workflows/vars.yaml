@@ -29,7 +29,8 @@ jobs:
           EMAIL: ${{ github.event.pusher.email }}
           
       - name: print a default environment variable  # this step is for debugging purposes only  
-        run: echo -e "SHA is $GITHUB_SHA\n"
+        run: echo -e "\n"
+             "SHA is $GITHUB_SHA\n"
              "Repo owner is $GITHUB_REPOSITORY_OWNER\n"
              "Repo owner id is $GITHUB_REPOSITORY_OWNER_ID"
     
