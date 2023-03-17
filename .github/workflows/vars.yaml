@@ -19,5 +19,11 @@ jobs:
       
       - name: see payload # this step is for debugging purposes only, so you can see the payload. 
         run: echo "PAYLOAD:\n${PAYLOAD}\n"
-        env:
+        env: # Environment variables
           PAYLOAD: ${{ toJSON(github.event) }}
+          
+      - name: print something from payload # for debugging 
+        run: echo "$PUSHER pushed this, their email is $EMAIL"
+        env: # Environment variables
+          PUSHER: ${{ github.event.pusher.name }}
+          EMAIL: ${{ github.event.pusher.email }}
