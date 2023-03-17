@@ -2,25 +2,23 @@
 
 Resources for W&B course "CI/CD for ML". Primarily we learn about GitHub Actions.
 
+Course References:
+https://www.wandb.ai/
+https://www.wandb.courses/
+https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat<br>
+https://github.com/hamelsmu/wandb-cicd
+
 Code in Repo:
 ci.yaml      - default 'Hello World'
 secret.yml.  - looks at encrypted secrets
 trigger.yaml - looks at event triggers (push, pull_request, workflow_dispatch)
 vars.yaml    - looks at special variables : github context variables, default environment variables
 
-
-Ref:
-https://www.wandb.ai/
-https://www.wandb.courses/
-
-
-
 Other References:<br>
 https://docs.github.com/en/actions<br>
 https://github.com/actions/checkout<br>
 https://docs.github.com/en/actions/security-guides/encrypted-secrets<br>
 https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows<br>
-https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat<br>
 https://pypi.org/project/wandb/<br>
 https://github.com/fastai/fastai<br>
 
