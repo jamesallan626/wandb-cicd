@@ -12,7 +12,7 @@ https://github.com/fastai/fastai<br>
 
 <b>Code in Repo</b>:<br>
 ci.yaml      - default 'Hello World'<br>
-secret.yml   - looks at encrypted secrets<br>
+secret.yml   - looks at encrypted secrets &#128064;<br>
 trigger.yaml - looks at event triggers (push, pull_request, workflow_dispatch)<br>
 vars.yaml    - looks at special variables : github contexts and their properties, default environment variables<br>
 
