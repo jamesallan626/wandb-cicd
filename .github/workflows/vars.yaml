@@ -29,10 +29,14 @@ jobs:
           EMAIL: ${{ github.event.pusher.email }}
           
       # this step is for debugging purposes only
-      # NOTE: to show os, we can use the os property of the runner context,
-      # or the default environment variable $RUNNER_OS
+      # NOTES:
+      # - to show os, we can use the os property of the runner context,
+      # or the default environment variable $RUNNER_OS as shown
+      # - to show SHA, we can use the ref property of the github context,
+      # or the default environment variable $GITHUB_SHA as shown
       - name: print a default environment variable  
         run: echo -e "\n" 
+             "SHA is ${{github.ref}}"
              "SHA is $GITHUB_SHA\n"
              "Repo owner is $GITHUB_REPOSITORY_OWNER\n"
              "Repo owner id is $GITHUB_REPOSITORY_OWNER_ID\n"
