@@ -32,5 +32,7 @@ jobs:
         run: echo -e "\n"
              "SHA is $GITHUB_SHA\n"
              "Repo owner is $GITHUB_REPOSITORY_OWNER\n"
-             "Repo owner id is $GITHUB_REPOSITORY_OWNER_ID"
+             "Repo owner id is $GITHUB_REPOSITORY_OWNER_ID\n"
+             "job is now running on a ${{ runner.os }} server hosted by GitHub\n"
+             "job is now running on a ${{ RUNNER_OS }} server hosted by GitHub\n"
     
