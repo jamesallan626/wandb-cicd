@@ -1,4 +1,4 @@
-name: io
+name: Dynamically Creating and Using Variables across steps
 on: [push]
 
 jobs:
