@@ -30,4 +30,6 @@ jobs:
           
       - name: print a default environment variable  # this step is for debugging purposes only  
         run: echo "SHA is $GITHUB_SHA"
+             echo "Repo owner is $GITHUB_REPOSITORY_OWNER"
+             echo "Repo owner id is $GITHUB_REPOSITORY_OWNER_ID"
     
