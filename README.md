@@ -26,7 +26,7 @@ https://github.com/actions/checkout<br>
 https://docs.github.com/en/actions/learn-github-actions/contexts<br>
 https://docs.github.com/en/actions/learn-github-actions/contexts#github-context<br>
 https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables<br>
-https://docs.github.com/en/actions/security-guides/encrypted-secrets<br>
+https://docs.github.com/en/actions/security-guides/encrypted-secrets &#128064;<br>
 https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows<br>
 https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs<br>
 https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions<br>
