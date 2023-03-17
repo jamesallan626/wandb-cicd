@@ -17,6 +17,7 @@ ci.yaml      - default 'Hello World'<br>
 secret.yml   - looks at encrypted secrets &#128064;<br>
 trigger.yaml - looks at event triggers (push, pull_request, workflow_dispatch)<br>
 vars.yaml    - looks at special variables : github contexts and their properties, default environment variables<br>
+io.yaml      - looks at creating variables dynamically and using them across steps<br>
 
 <b>Other References (useful for code above)</b>:<br>
 https://docs.github.com/en/actions<br>
