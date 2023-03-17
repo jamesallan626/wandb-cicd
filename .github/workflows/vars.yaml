@@ -1,4 +1,4 @@
-name: Variables
+name: Special Variables Demo
 run-name: ${{ github.actor }} is testing out Special Variables 🚀
 on: [push]
 jobs:
