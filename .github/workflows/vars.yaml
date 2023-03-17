@@ -17,13 +17,17 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
-      - name: see payload # this step is for debugging purposes only, so you can see the payload. 
+      - name: see payload  # this step is for debugging purposes only  
         run: echo "PAYLOAD:\n${PAYLOAD}\n"
         env: # Environment variables
           PAYLOAD: ${{ toJSON(github.event) }}
           
-      - name: print something from payload # for debugging 
+      - name: print something from payload # this step is for debugging purposes only  
         run: echo "$PUSHER pushed this, their email is $EMAIL"
         env: # Environment variables
           PUSHER: ${{ github.event.pusher.name }}
           EMAIL: ${{ github.event.pusher.email }}
+          
+      - name: print a default environment variable  # this step is for debugging purposes only  
+        run: echo "SHA is $GITHUB_SHA"
+    
