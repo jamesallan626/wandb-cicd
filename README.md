@@ -1,6 +1,6 @@
 # wandb-cicd
 
-This repository contains resources for W&B course "CI/CD for ML". Primarily we learn about GitHub Actions.<br><br>
+This repository contains resources for W&B course "CI/CD for ML". Primarily we learn about GitHub Actions.<br>
 
 James Allan (Mar. 17, 2023)
 
