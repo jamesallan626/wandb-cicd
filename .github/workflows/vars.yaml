@@ -2,7 +2,7 @@ name: Variables
 run-name: ${{ github.actor }} is testing out Special Variables 🚀
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Test-Special-Variables:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
