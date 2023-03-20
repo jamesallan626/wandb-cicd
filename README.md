@@ -33,7 +33,7 @@ https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specif
 https://docs.python.org/3/library/os.html#os.environ<br>
 https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests<br>
 https://github.com/hamelsmu/wandb-cicd/blob/main/.github/workflows/chatops.yml<br><br>
-<b>And Some Other Useful References </b>:<br>
+<b>Useful References for Testing </b>:<br>
 pytest book: https://www.amazon.com/Python-Testing-pytest-Effective-Scalable/dp/1680508601<br>
 Mamba: https://github.com/mamba-org/provision-with-micromamba<br>
 Setup Python: https://github.com/actions/setup-python<br>
