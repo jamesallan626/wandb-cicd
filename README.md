@@ -39,7 +39,8 @@ Mamba: https://github.com/mamba-org/provision-with-micromamba<br>
 Setup Python: https://github.com/actions/setup-python<br>
 Caching: https://github.com/actions/cache<br>
 Advanced Github Code Search Beta: https://github.com/features/code-search<br>
-W&B First course on MLOps: https://github.com/wandb/edu/tree/main/mlops-001
+W&B First course on MLOps: https://github.com/wandb/edu/tree/main/mlops-001<br>
+Conda setup: https://github.com/conda-incubator/setup-miniconda<br>
 
 
 
