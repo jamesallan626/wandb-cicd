@@ -25,4 +25,5 @@ jobs:
         shell: python
         env:
          MY_VAR: ${{ secrets.MY_SECRET }}
+         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
