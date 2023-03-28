@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
 
 env:
-  MAGIC_COMMENT: "/bug" 
+  MAGIC_COMMENT: "/bug" # this is a parameter you can change
 
 jobs:
   see-comment:
@@ -52,9 +52,8 @@ jobs:
       if: steps.get-magic-value.outcome == 'success' 
       with:
         script: |
-           # var msg = `👋 Hello!  You commented on this PR with a magic value of \`${process.env.MAGIC_VAL}\``
-           var msg = `Bug`
-           github.rest.issues.createLabel({
+           var msg = `👋 Hello Bug!  You commented on this PR with a magic value of \`${process.env.MAGIC_VAL}\``
+           github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
