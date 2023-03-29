@@ -1,4 +1,4 @@
-name: bug2-ghapi-alternate-soln
+name: Bug2Ops       # this is an alternate solution to the assignment
 on: issue_comment
 
 permissions:
