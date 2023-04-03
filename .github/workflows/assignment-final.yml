@@ -7,7 +7,7 @@ permissions:
   pull-requests: write
   
 env:
-  MAGIC_COMMENT: "/wandb" # this is a parameter you can change
+  MAGIC_COMMENT: "/wandb" 
 
 jobs:
   see-comment:
@@ -20,7 +20,7 @@ jobs:
       env:
         PAYLOAD: ${{ toJSON(github.event) }}
         
-    - name: filter for magic comment
+    - name: filter for comment /wandb
       id: filter
       if: contains(github.event.comment.body, env.MAGIC_COMMENT)
       run: echo "magic comment detected"
@@ -37,6 +37,7 @@ jobs:
           if match:
             print(f'VAL_FOUND=true', file=f)
             print(f'MAGIC_VAL={match.group(1)}', file=f)
+            print(f'MAGIC_VAL={match.group(2)}', file=f)
           else:
             print(f'VAL_FOUND=false', file=f)
       env:
