@@ -1,4 +1,4 @@
-name: excercise-wandb
+name: assignment-final
 on: issue_comment
 
 permissions:
