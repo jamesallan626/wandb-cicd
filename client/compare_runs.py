@@ -13,7 +13,7 @@ def get_baseline_run(entity='jamesallan626', project='my-report-project', tag='b
 
 
 def compare_runs(entity='jamesallan626',
-                 project='pytorch-intro',
+                 project='lineage-example',
                  tag='baseline',
                  run_id=None):
     "Compare the current run to the baseline run."
