@@ -41,10 +41,19 @@ Caching: https://github.com/actions/cache<br>
 Advanced Github Code Search Beta: https://github.com/features/code-search<br>
 W&B First course on MLOps: https://github.com/wandb/edu/tree/main/mlops-001<br>
 Conda setup: https://github.com/conda-incubator/setup-miniconda<br>
-
-
-
-
+<b>Other </b>:<br>
+https://wandb.ai/fully-connected wandb blog with a regular fresh dose of ML and MLOps knowledge<br>
+https://docs.wandb.ai the go-to place for anything W&B<br>
+https://discord.com/invite/AKKt78VvcB (W&B discord)<br>
+Finding and using actions from others.  Ex. https://github.com/marketplace?type=actions <br>
+How to create your own third party actions https://docs.github.com/en/actions/creating-actions <br>
+Ex. https://github.com/jupyterhub/repo2docker-action <br>
+“External” event triggers: <br>
+    workflow_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch <br>
+    repository_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch <br>
+Self hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners <br>
+Re-usable worflows: https://docs.github.com/en/actions/using-workflows/reusing-workflows <br>
+Caching dependencies to speed up workflow: https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows <br>
 <br>
 <br>
 End of README.MD
