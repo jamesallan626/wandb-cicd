@@ -49,8 +49,8 @@ Finding and using actions from others.  Ex. https://github.com/marketplace?type=
 How to create your own third party actions https://docs.github.com/en/actions/creating-actions <br>
 Ex. https://github.com/jupyterhub/repo2docker-action <br>
 “External” event triggers: <br>
-    worklow_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch <br>
-    repository_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch <br>
+  -  worklow_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch <br>
+   - repository_dispatch https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch <br>
 Self hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners <br>
 Re-usable worflows: https://docs.github.com/en/actions/using-workflows/reusing-workflows <br>
 Caching dependencies to speed up workflow: https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows <br>
